@@ -1,0 +1,52 @@
+body{
+    width: 50vw;
+}
+
+.body{
+    width: 50vw;
+}
+
+.image{
+    width: 50vw;
+}
+
+.text{
+    width: 50vw;
+}
+
+.foot{
+    margin-top: 500px;
+}
+
+.biohazard{
+    position: absolute;
+    left: 50px;
+}
+
+.man-and-woman{
+    position: absolute;
+    left: 300px;
+}
+
+.yin_and_yang{
+    position: absolute;
+    left: 180px;
+    margin-top: 250px;
+}
+
+.no_smoking{
+    position: absolute;
+    left: 170px;
+    margin-top: 70px;
+}
+
+.abs{
+    width: 210px;
+    height: 210px;
+}
+
+.abs:hover{
+    z-index: 1;
+    width: 240px;
+    height: 240px;
+}

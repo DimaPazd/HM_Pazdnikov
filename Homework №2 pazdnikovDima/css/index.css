@@ -1,0 +1,20 @@
+body{
+    background: url(/Homework №2 pazdnikovDima/img/background.png) ;
+    /*, высокое качество картинки */
+    background-size: cover;
+    text-align: left
+}
+p{
+    font-size: x-large;
+    text-align: left;
+    line-height: 150%;
+}
+div{
+    width: 600px;
+    margin: auto;
+}
+h1{
+    color: white;
+    font-weight: 600;
+}
+

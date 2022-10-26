@@ -1,0 +1,95 @@
+body{
+    width: max vw;
+    height: max vh;
+}
+
+
+.block {
+	background-image: url(../img/ram1.PNG);
+    background-repeat: no-repeat ;
+    background-position: 0% 100% ;
+	width: 100vw;
+	height: 100vh;
+    position: absolute;
+    z-index:1;	
+}
+
+.block-1 {
+	background-image: url(../img/ram2.PNG);
+    background-repeat: repeat-y;
+    background-position: 0% 100% ;
+	width: 100vw;
+	height: 100vh;
+    position: absolute;
+}
+
+.block-2 {
+	background-image: url(../img/ram3.PNG);
+    background-repeat: no-repeat;
+    background-position: 0% 0% ;
+	width: 100vw;
+	height: 100vh;
+    position: absolute;
+    z-index:2;
+}
+
+.block-3 {
+	background-image: url(../img/ram4.PNG);
+    background-repeat: repeat-x;
+    background-position: 100% 0% ;
+	width: 100vw;
+	height: 100vh;
+    position: absolute;
+}
+
+.block-4 {
+	background-image: url(../img/ram5.PNG);
+    background-repeat: no-repeat ;
+    background-position: 100% 0% ;
+	width: 100vw;
+	height: 100vh;
+    position: absolute;
+    z-index:3;
+}
+
+.block-5 {
+	background-image: url(../img/ram6.PNG);
+    background-repeat: repeat-y;
+    background-position: 100% 0% ;
+	width: 100vw;
+	height: 100vh;
+    position: absolute;
+}
+
+.block-6 {
+	background-image: url(../img/ram7.PNG);
+    background-repeat: no-repeat ;
+    background-position: 100% 100% ;
+	width: 100vw;
+	height: 100vh;
+    position: absolute;
+    z-index:4;
+}
+
+.block-7 {
+	background-image: url(../img/ram8.PNG);
+    background-repeat: repeat-x;
+    background-position: 100% 100% ;
+	width: 100vw;
+	height: 100vh;
+    position: absolute;   
+}
+
+
+.text {
+   border: 1px solid transparent;
+   width: 70vw;
+   height: 70vh;
+   margin: 10% 10% 10% 15%; 
+   position: absolute;
+   z-index: 5;
+   font-family: 'Times New Roman', Times, serif;
+   font-size: 30px;
+   overflow: hidden;
+   white-space: pre-wrap;
+}

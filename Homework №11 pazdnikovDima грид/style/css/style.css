@@ -1,0 +1,154 @@
+body{
+    background-color: floralwhite;
+    width: 100vw;
+    height: 100vh;
+
+}
+
+.grid{
+    display: grid ;
+    grid-template-columns: repeat(1,3fr);
+    width: 100vw;
+    height: 100vh;
+}
+
+div{
+    background-color: floralwhite;
+    box-sizing: border-box;
+
+}
+
+.box1{
+    background-color: lightblue;
+    column-gap: 10px;
+    row-gap: 10px;
+    gap: 10px;
+    grid-column: 1/4;
+    grid-row: 1/1;
+    color: blue;
+    font-weight: bold;
+    font-variant: small-caps;
+    text-align: center;
+
+}
+
+.box2{
+    background-color: yellow;
+    column-gap: 10px;
+    row-gap: 10px;
+    gap: 10px;
+    grid-column: 1/1;
+    grid-row: 2/5;
+    font-size: 18px;
+    font-weight: bold;
+
+}
+
+
+.box3{
+    grid-row: 2/5;
+    width: 85vw;
+    float: left;
+
+}
+
+    .img1{
+        float: left;
+        width: 30vw;
+        height: 40vh;
+        margin: 5px;
+        border: 1px solid black;
+        border-radius: 10px;
+    }
+    .img2{
+        opacity: 0.5;
+        position: absolute;
+        float: left;
+        
+        background-repeat: repeat-x;
+
+    }
+
+        .box3 h1{
+            font-weight: bold;
+            font-variant: small-caps;
+            text-align: center;
+        }
+
+        .box3 p{
+            font-style: italic;
+            font-size: 18px;
+            text-align: left;
+        }
+
+
+.box4{
+    background-color: lightblue;    
+  
+    column-gap: 10px;
+    row-gap: 30px;
+    gap: 10px;
+    grid-row: 5/7;
+    grid-column: 1/7 ;
+    color: blue;
+    font-weight: bold;
+    font-variant: small-caps;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+@media screen and  (max-width: 450px){
+    #grid{
+        display:grid;
+        width: 50vw;
+        grid-template-columns: 1fr;
+        border: 1px solid transparent;
+    }
+    
+    .box2{
+        padding: 20%;
+        background-color: rgb(253, 249, 9);
+        
+    }
+    
+    .box3{
+        
+        position: relative;
+        overflow: hidden;
+        border: 1px solid transparent;
+    }
+    
+        .box3::before{
+            display: none;
+        }
+    
+        .cup{
+            width: 150px;
+            height: 150px;
+            margin: 2%;
+        }
+    
+    .box1{
+        display: none;
+    }
+    
+    .box4{
+        display: none;
+    }
+    
+    p{
+        clear: both;
+    }
+
+
+
+}
+
+

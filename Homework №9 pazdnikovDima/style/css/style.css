@@ -1,0 +1,115 @@
+body{
+    background-color: rgb(105, 36, 170);
+    width: calc(100vw - (100vw - 100%));
+   
+}
+
+.form-reg{
+    width: 50vw;
+    background: #e7bd86;
+    border-radius: 20px;
+    text-align: center;
+    box-sizing: border-box;
+    
+
+}
+
+form {
+    background:  #e7bd86;
+    width: 50vw;
+    border-radius:20px;
+    color: black;
+    text-align: center;
+    display: block;
+    font-size: 15px;
+    font-style: italic;
+    box-sizing: border-box;
+    float: left;
+   
+} 
+
+form div {
+    margin-bottom: 15px;
+    position: relative;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: 400;
+    position: relative;
+    margin-top: 15px;
+}
+
+
+input[type="text"], input[type="email"], input[type="password"],select, input[type="submit"], input[type="reset"]{
+    margin-top: 15px;
+    width: 12vw;
+    padding: 5px 10px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-style: italic;
+    box-sizing: border-box;
+   
+}
+
+input[type="text"]:focus, input[type="email"]:focus ,input[type="password"]:focus {
+    box-shadow: inset 0 0 0 20px rgba(240, 139, 57, 0.774);
+    box-sizing: border-box;
+}
+
+label, span {
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    cursor: pointer;
+   
+}
+
+.radio{
+    border: #e7bd86;
+    cursor: pointer;
+}
+
+.checkbox{
+    border: #e7bd86;
+}
+
+.bithday{
+    cursor: pointer;
+}
+
+@media screen and (max-width: 480px) {
+    .form-reg {
+        margin: 20px auto;
+        max-width: 100vw; 
+        float: none; width: 50vw;
+    }
+   
+    form {
+        margin: 20px auto;
+        max-width: 100vw; 
+        float: none; width: 100vw;
+        width: calc(100vw - (100vw - 100%));
+    }
+    
+    input[type="text"], input[type="email"], input[type="password"],select, input[type="submit"], input[type="reset"]{
+        margin-top: 15px;
+        width: 12vw;
+        padding: 5px 10px;
+        border-radius: 20px;
+        cursor: pointer;
+        font-style: italic;
+        box-sizing: border-box;
+        float: none; width: 50vw; 
+        width: calc(100vw - (100vw - 100%));
+    }
+    .bithday{
+        float:none; width: 40vw; 
+        width: calc(100vw - (100vw - 100%));
+    }
+
+
+    }
+
+
+
+

@@ -25,3 +25,4 @@ sizeBtns.forEach((item, i) => {
         item.classList.add('check'); 
         checkedBtn = i; 
 })
+})
